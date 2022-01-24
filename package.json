@@ -1,12 +1,12 @@
 {
     "name": "html-and-css-practice",
     "version": "1.0.0",
-    "homepage": "https://leonidfeskov.github.io/html-and-css-practice/",
-    "author": "Leonid Feskov",
+    "homepage": "https://NickKovtunov.github.io/html-and-css-practice/",
+    "author": "Nick Kovtunov",
     "license": "MIT",
     "scripts": {
         "start": "parcel index.html",
-        "build": "parcel build index.html --public-url '.'",
+        "build": "parcel build index.html --public-url .",
         "deploy": "yarn build && gh-pages -d dist"
     },
     "devDependencies": {
